@@ -9,65 +9,75 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: Arial, sans-serif;
+            font-family: 'Poppins', sans-serif;
         }
         body {
-            background: #f4f4f4;
+            background: linear-gradient(to right, #4facfe, #00f2fe);
             color: #333;
             line-height: 1.6;
         }
         header {
-            background: #007bff;
+            background: rgba(0, 0, 0, 0.7);
             color: white;
             padding: 20px;
             text-align: center;
-            font-size: 24px;
+            font-size: 28px;
             font-weight: bold;
+            letter-spacing: 1px;
         }
         nav {
             display: flex;
             justify-content: center;
-            background: #0056b3;
-            padding: 10px;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 15px;
         }
         nav a {
             color: white;
             text-decoration: none;
-            padding: 10px 20px;
+            padding: 12px 25px;
             margin: 0 10px;
+            font-size: 16px;
             transition: 0.3s;
+            border-radius: 5px;
         }
         nav a:hover {
             background: white;
-            color: #0056b3;
-            border-radius: 5px;
+            color: #007bff;
         }
         .container {
             max-width: 900px;
-            margin: 20px auto;
+            margin: 40px auto;
             background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        .container h2 {
+            margin-bottom: 15px;
+            color: #007bff;
         }
         .button {
             display: inline-block;
             background: #007bff;
             color: white;
-            padding: 10px 20px;
+            padding: 12px 25px;
             text-decoration: none;
             border-radius: 5px;
-            margin-top: 10px;
+            font-size: 16px;
+            margin-top: 15px;
+            transition: 0.3s;
         }
         .button:hover {
             background: #0056b3;
+            transform: scale(1.05);
         }
         footer {
             text-align: center;
-            padding: 15px;
-            background: #333;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.9);
             color: white;
-            margin-top: 20px;
+            margin-top: 30px;
         }
     </style>
 </head>
@@ -86,7 +96,7 @@
 
 <div class="container">
     <h2>Welcome to Our Website</h2>
-    <p>This is a simple, elegant, and responsive webpage layout using only HTML and CSS.</p>
+    <p>Experience a sleek, modern, and responsive webpage with a clean design and smooth interactions.</p>
     <a href="#" class="button">Learn More</a>
 </div>
 
